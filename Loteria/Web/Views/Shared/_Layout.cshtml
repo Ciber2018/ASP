@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css.map" rel="stylesheet" type="text/css" />
+    <link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/Content/fontawesome.min.css" rel="stylesheet" />
+    <link href="~/Libraries/css/bootstrap-clockpicker.min.css" rel="stylesheet" type="text/css"/>
+    <link href="~/Libraries/css/jquery-clockpicker.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/scripts/jquery-3.3.1.slim.min.js"></script>
+    <script src="~/scripts/umd/popper.min.js"></script>
+    <script src="~/scripts/bootstrap.min.js"></script>   
+    <script src="~/scripts/modernizr-2.6.2.js"></script>
+    <script src="~/Libraries/js/bootstrap-clockpicker.min.js"></script>
+    <script src="~/Libraries/js/jquery-clockpicker.min.js"></script>
+</head>
+<body>    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">                
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            @Html.ActionLink("Inicio", "Index","Evento")
+                        </li>                      
+                    </ul>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            @Html.ActionLink("Crear Eventos", "CreateEvento","Evento")
+                        </li>
+                    </ul>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            @Html.ActionLink("Crear Tarjetas", "CreateTarjeta","Tarjeta")
+                        </li>
+                    </ul>    
+                     
+            </div>
+
+            <div class="col-md-10">
+                <div class="container body-content">
+                    @RenderBody()                   
+                    <hr />
+                    <footer>
+                        <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+                    </footer>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    
+</body>
+</html>

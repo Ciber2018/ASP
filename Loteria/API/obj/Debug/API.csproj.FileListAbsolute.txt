@@ -1,0 +1,115 @@
+E:\Frank\Proyecto\Loteria\API\bin\roslyn\csc.exe
+E:\Frank\Proyecto\Loteria\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Frank\Proyecto\Loteria\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Frank\Proyecto\Loteria\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Frank\Proyecto\Loteria\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Frank\Proyecto\Loteria\API\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Frank\Proyecto\Loteria\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Frank\Proyecto\Loteria\API\bin\roslyn\System.Collections.Immutable.dll
+E:\Frank\Proyecto\Loteria\API\bin\roslyn\System.Reflection.Metadata.dll
+E:\Frank\Proyecto\Loteria\API\bin\roslyn\vbc.exe
+E:\Frank\Proyecto\Loteria\API\bin\roslyn\VBCSCompiler.exe
+E:\Frank\Proyecto\Loteria\API\bin\roslyn\VBCSCompiler.exe.config
+E:\Frank\Proyecto\Loteria\API\bin\API.dll.config
+E:\Frank\Proyecto\Loteria\API\bin\API.dll
+E:\Frank\Proyecto\Loteria\API\bin\API.pdb
+E:\Frank\Proyecto\Loteria\API\bin\Antlr3.Runtime.dll
+E:\Frank\Proyecto\Loteria\API\bin\Datos.dll
+E:\Frank\Proyecto\Loteria\API\bin\Logica.dll
+E:\Frank\Proyecto\Loteria\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Frank\Proyecto\Loteria\API\bin\Microsoft.Web.Infrastructure.dll
+E:\Frank\Proyecto\Loteria\API\bin\Newtonsoft.Json.dll
+E:\Frank\Proyecto\Loteria\API\bin\System.Net.Http.Formatting.dll
+E:\Frank\Proyecto\Loteria\API\bin\System.Web.Helpers.dll
+E:\Frank\Proyecto\Loteria\API\bin\System.Web.Http.dll
+E:\Frank\Proyecto\Loteria\API\bin\System.Web.Http.WebHost.dll
+E:\Frank\Proyecto\Loteria\API\bin\System.Web.Mvc.dll
+E:\Frank\Proyecto\Loteria\API\bin\System.Web.Optimization.dll
+E:\Frank\Proyecto\Loteria\API\bin\System.Web.Razor.dll
+E:\Frank\Proyecto\Loteria\API\bin\System.Web.WebPages.Deployment.dll
+E:\Frank\Proyecto\Loteria\API\bin\System.Web.WebPages.dll
+E:\Frank\Proyecto\Loteria\API\bin\System.Web.WebPages.Razor.dll
+E:\Frank\Proyecto\Loteria\API\bin\WebGrease.dll
+E:\Frank\Proyecto\Loteria\API\bin\MySql.Data.Entity.EF6.dll
+E:\Frank\Proyecto\Loteria\API\bin\EntityFramework.dll
+E:\Frank\Proyecto\Loteria\API\bin\MySql.Data.dll
+E:\Frank\Proyecto\Loteria\API\bin\Datos.pdb
+E:\Frank\Proyecto\Loteria\API\bin\Logica.pdb
+E:\Frank\Proyecto\Loteria\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Frank\Proyecto\Loteria\API\bin\Newtonsoft.Json.xml
+E:\Frank\Proyecto\Loteria\API\bin\System.Net.Http.Formatting.xml
+E:\Frank\Proyecto\Loteria\API\bin\System.Web.Helpers.xml
+E:\Frank\Proyecto\Loteria\API\bin\System.Web.Http.xml
+E:\Frank\Proyecto\Loteria\API\bin\System.Web.Http.WebHost.xml
+E:\Frank\Proyecto\Loteria\API\bin\System.Web.Mvc.xml
+E:\Frank\Proyecto\Loteria\API\bin\System.Web.Optimization.xml
+E:\Frank\Proyecto\Loteria\API\bin\System.Web.Razor.xml
+E:\Frank\Proyecto\Loteria\API\bin\System.Web.WebPages.xml
+E:\Frank\Proyecto\Loteria\API\bin\System.Web.WebPages.Deployment.xml
+E:\Frank\Proyecto\Loteria\API\bin\System.Web.WebPages.Razor.xml
+E:\Frank\Proyecto\Loteria\API\bin\Antlr3.Runtime.pdb
+E:\Frank\Proyecto\Loteria\API\bin\MySql.Data.Entity.EF6.xml
+E:\Frank\Proyecto\Loteria\API\bin\EntityFramework.xml
+E:\Frank\Proyecto\Loteria\API\bin\MySql.Data.xml
+E:\Frank\Proyecto\Loteria\API\obj\Debug\API.csprojResolveAssemblyReference.cache
+E:\Frank\Proyecto\Loteria\API\obj\Debug\API.dll
+E:\Frank\Proyecto\Loteria\API\obj\Debug\API.pdb
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\roslyn\csc.exe
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\roslyn\System.Collections.Immutable.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\roslyn\System.Reflection.Metadata.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\roslyn\vbc.exe
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\roslyn\VBCSCompiler.exe
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\roslyn\VBCSCompiler.exe.config
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\API.dll.config
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\API.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\API.pdb
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\Antlr3.Runtime.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\Datos.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\Logica.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\Microsoft.Web.Infrastructure.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\Newtonsoft.Json.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Net.Http.Formatting.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.Helpers.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.Http.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.Http.WebHost.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.Mvc.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.Optimization.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.Razor.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.WebPages.Deployment.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.WebPages.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.WebPages.Razor.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\WebGrease.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\MySql.Data.Entity.EF6.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\EntityFramework.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\MySql.Data.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\Datos.pdb
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\Logica.pdb
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\Newtonsoft.Json.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Net.Http.Formatting.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.Helpers.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.Http.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.Http.WebHost.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.Mvc.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.Optimization.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.Razor.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.WebPages.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.WebPages.Deployment.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.WebPages.Razor.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\Antlr3.Runtime.pdb
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\MySql.Data.Entity.EF6.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\EntityFramework.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\MySql.Data.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\obj\Debug\API.csprojResolveAssemblyReference.cache
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\obj\Debug\API.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\obj\Debug\API.pdb
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.Cors.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.Http.Cors.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.Http.Cors.xml

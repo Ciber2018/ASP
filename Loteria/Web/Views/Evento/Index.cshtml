@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Datos.Models.evento>
+@{
+    ViewBag.Title = "App Loteria";
+}
+
+<h2>Inicio</h2>
+    
+        <div class="table-responsive">
+            <table class="table table-hover justify-content-lg-start">
+                <thead>
+                    <tr>
+                        <th>Nombre Evento</th>
+                        <th>Fecha</th>
+                        <th>Hora</th>
+                        <th>Operaciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var listado in Model)
+                    {
+                        <tr>
+                            <td>
+                                @listado.ID
+                            </td>
+                            <td>
+                                @listado.fecha
+                            </td>
+                            <td>
+                                @listado.hora
+                            </td>
+                            <td>
+                                @Html.ActionLink("Editar", "EditarEvento", new { id = listado.ID },new { @class = "btn btn-info"}) |
+                                @Html.ActionLink("Detalles", "Details", new { id = listado.ID }, new { @class = "btn btn-info" }) |   
+                                @Html.ActionLink("Tarjeta Ganadora", "TarjetaGanadora", new { id = listado.ID }, new { @class = "btn btn-info" }) |                                                             
+                                @Html.ActionLink("Borrar", "Delete", new { id = listado.ID }, new { @class = "btn btn-danger" })
+                            </td>                            
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    
+    
+
+
+

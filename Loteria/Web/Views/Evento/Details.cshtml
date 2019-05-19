@@ -1,0 +1,73 @@
+﻿@using Datos.Models
+
+@model Datos.Models.evento
+
+@{
+    ViewBag.Title = "Detalles";
+    
+}
+
+<h2>Detalles de Evento</h2>
+
+<div>
+    <hr />
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.ID)</th>
+                    <th>@Html.DisplayNameFor(model => model.fecha)</th>
+                    <th>@Html.DisplayNameFor(model => model.hora)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                       @Html.DisplayFor(model => model.ID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => model.fecha)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => model.hora)
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br />
+    <div>
+        <h2>Tarjetas Asociadas al Evento</h2>
+        <hr />
+        @if (!string.IsNullOrEmpty(ViewBag.Info))
+        {
+            <div class="alert alert-info"><strong>Informacion! </strong>@ViewBag.Info</div>
+
+        }
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">                   
+                                      
+                        @foreach (var x in ViewData["tarjetas_asociadas"] as IEnumerable<tarjeta>)
+                        {
+
+                            <div class="card border border-info" style="text-align:center">
+                                <div class="card-body bg-info text-white">
+                                    <h1>@x.numeroID</h1>
+                                </div>
+                                <div class="card-footer">
+                                    @x.estado
+                                </div>
+                            </div>
+                            <br />
+                        }                 
+                </div>
+            </div>
+        </div>        
+    </div>
+</div>
+<p>
+    @Html.ActionLink("Editar ", "EditarEvento", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
