@@ -4,11 +4,12 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using Logica.Repositorios;
-using Logica;
 using Datos.Models;
+using Negocios.Eventos;
 using System.Web.Http.Description;
 using System.Web.Http.Cors;
+
+
 
 namespace API.Controllers
 {
@@ -16,36 +17,30 @@ namespace API.Controllers
     public class ValuesController : ApiController
     {
 
-        private EventoRepositorio repo_evento = new EventoRepositorio();
-        private LoteriaModel lotModel = new LoteriaModel();
-        private EventosServices services = new EventosServices();
+        private EventoNegocio evt_negocio = new EventoNegocio();
 
 
         // GET api/values/GetAllEvent          
         public IEnumerable<evento> GetAllEvents()
-        {            
-            //return new string[] { "value1", "value2" };
-            //List<evento> evt = repo_evento.ListadoEventos().ToList();
-            return repo_evento.ListadoEventos().ToList();
-            //return evt;
+        {                        
+            return evt_negocio.All();            
         }
 
         // GET api/values/GetEventosDisponibles
         public IEnumerable<evento> GetEventosDisponibles()
         {
-
-            return repo_evento.EventosDisponibles().ToList();
+            return evt_negocio.EventosDisponibles();
         }
 
         // GET api/values/GetEventosFinalizados
         public IEnumerable<evento> GetEventosFinalizados()
         {
-            return repo_evento.EventosFinalizados().ToList();
+            return evt_negocio.EventosFinalizados();
         }
 
         public IEnumerable<tarjeta> GetTarjetasAsociadas(string id)
         {
-            return services.TarjetasAsociadas(id).ToList();
+            return evt_negocio.TarjetasAsociadasEvento(id);
         }
 
         // GET api/values/5

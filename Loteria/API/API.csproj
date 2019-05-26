@@ -229,9 +229,13 @@
       <Project>{dc515e37-3e18-4ef0-9213-8d6a03f3c90c}</Project>
       <Name>Datos</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Logica\Logica.csproj">
+    <ProjectReference Include="..\Logica\Repo.csproj">
       <Project>{435a27da-9b11-4e15-9f04-b6006f270231}</Project>
-      <Name>Logica</Name>
+      <Name>Repo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Negocios\Negocios.csproj">
+      <Project>{2da056ac-f679-4e3f-9f07-2e509335a176}</Project>
+      <Name>Negocios</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

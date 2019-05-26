@@ -113,3 +113,66 @@ E:\Proyectos\Proyecto Costa Rica\Loteria\API\obj\Debug\API.pdb
 E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.Cors.dll
 E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.Http.Cors.dll
 E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\System.Web.Http.Cors.xml
+E:\Frank\Loteria\API\obj\Debug\API.csprojResolveAssemblyReference.cache
+E:\Frank\Loteria\API\obj\Debug\API.dll
+E:\Frank\Loteria\API\obj\Debug\API.pdb
+E:\Frank\Loteria\API\bin\roslyn\csc.exe
+E:\Frank\Loteria\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Frank\Loteria\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Frank\Loteria\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Frank\Loteria\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Frank\Loteria\API\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Frank\Loteria\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Frank\Loteria\API\bin\roslyn\System.Collections.Immutable.dll
+E:\Frank\Loteria\API\bin\roslyn\System.Reflection.Metadata.dll
+E:\Frank\Loteria\API\bin\roslyn\vbc.exe
+E:\Frank\Loteria\API\bin\roslyn\VBCSCompiler.exe
+E:\Frank\Loteria\API\bin\roslyn\VBCSCompiler.exe.config
+E:\Frank\Loteria\API\bin\API.dll.config
+E:\Frank\Loteria\API\bin\API.dll
+E:\Frank\Loteria\API\bin\API.pdb
+E:\Frank\Loteria\API\bin\Antlr3.Runtime.dll
+E:\Frank\Loteria\API\bin\Datos.dll
+E:\Frank\Loteria\API\bin\Logica.dll
+E:\Frank\Loteria\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Frank\Loteria\API\bin\Microsoft.Web.Infrastructure.dll
+E:\Frank\Loteria\API\bin\Negocios.dll
+E:\Frank\Loteria\API\bin\Newtonsoft.Json.dll
+E:\Frank\Loteria\API\bin\System.Net.Http.Formatting.dll
+E:\Frank\Loteria\API\bin\System.Web.Cors.dll
+E:\Frank\Loteria\API\bin\System.Web.Helpers.dll
+E:\Frank\Loteria\API\bin\System.Web.Http.Cors.dll
+E:\Frank\Loteria\API\bin\System.Web.Http.dll
+E:\Frank\Loteria\API\bin\System.Web.Http.WebHost.dll
+E:\Frank\Loteria\API\bin\System.Web.Mvc.dll
+E:\Frank\Loteria\API\bin\System.Web.Optimization.dll
+E:\Frank\Loteria\API\bin\System.Web.Razor.dll
+E:\Frank\Loteria\API\bin\System.Web.WebPages.Deployment.dll
+E:\Frank\Loteria\API\bin\System.Web.WebPages.dll
+E:\Frank\Loteria\API\bin\System.Web.WebPages.Razor.dll
+E:\Frank\Loteria\API\bin\WebGrease.dll
+E:\Frank\Loteria\API\bin\MySql.Data.Entity.EF6.dll
+E:\Frank\Loteria\API\bin\EntityFramework.dll
+E:\Frank\Loteria\API\bin\MySql.Data.dll
+E:\Frank\Loteria\API\bin\Datos.pdb
+E:\Frank\Loteria\API\bin\Logica.pdb
+E:\Frank\Loteria\API\bin\Negocios.pdb
+E:\Frank\Loteria\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Frank\Loteria\API\bin\System.Net.Http.Formatting.xml
+E:\Frank\Loteria\API\bin\System.Web.Http.xml
+E:\Frank\Loteria\API\bin\System.Web.Http.Cors.xml
+E:\Frank\Loteria\API\bin\Newtonsoft.Json.xml
+E:\Frank\Loteria\API\bin\System.Web.Helpers.xml
+E:\Frank\Loteria\API\bin\System.Web.Http.WebHost.xml
+E:\Frank\Loteria\API\bin\System.Web.Mvc.xml
+E:\Frank\Loteria\API\bin\System.Web.Optimization.xml
+E:\Frank\Loteria\API\bin\System.Web.Razor.xml
+E:\Frank\Loteria\API\bin\System.Web.WebPages.xml
+E:\Frank\Loteria\API\bin\System.Web.WebPages.Deployment.xml
+E:\Frank\Loteria\API\bin\System.Web.WebPages.Razor.xml
+E:\Frank\Loteria\API\bin\Antlr3.Runtime.pdb
+E:\Frank\Loteria\API\bin\MySql.Data.Entity.EF6.xml
+E:\Frank\Loteria\API\bin\EntityFramework.xml
+E:\Frank\Loteria\API\bin\MySql.Data.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\Negocios.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\API\bin\Negocios.pdb

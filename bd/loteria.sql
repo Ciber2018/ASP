@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 19-05-2019 a las 23:38:56
+-- Tiempo de generación: 26-05-2019 a las 17:59:15
 -- Versión del servidor: 10.1.30-MariaDB
 -- Versión de PHP: 7.2.1
 
@@ -39,13 +39,11 @@ CREATE TABLE `evento` (
 --
 
 INSERT INTO `evento` (`ID`, `fecha`, `hora`) VALUES
-('Evento1', '2019/05/15', '11:20'),
-('Evento2', '2019/05/13', '12:00'),
-('Evento21', '2019/06/05', '03:18'),
-('eventoconhora', '2019/05/20', '08:20'),
-('Evet23', '2019/05/21', '03:30'),
-('Evt201', '2019/05/22', '03:15'),
-('Otro', '2019/05/23', '05:30');
+('Evento Laravel', '2019/05/28', '10:45'),
+('Evento1', '2019/05/25', '09:00'),
+('Evento2', '2019/05/25', '09:25'),
+('EventoNegocio', '2019/05/25', '09:00'),
+('Evet23', '2019/05/25', '10:45');
 
 -- --------------------------------------------------------
 
@@ -64,7 +62,31 @@ CREATE TABLE `tarjeta` (
 --
 
 INSERT INTO `tarjeta` (`numeroID`, `estado`, `ID`) VALUES
-(59, 'L', 'Evento1');
+(20, 'W', 'Evento1'),
+(30, 'L', 'Evento1'),
+(59, 'L', 'Evento1'),
+(70, 'L', 'Evento1'),
+(85, 'L', 'Evento1'),
+(100, 'L', 'Evento2'),
+(150, 'L', 'Evento2'),
+(200, 'W', 'Evento2'),
+(250, 'L', 'Evento2'),
+(280, 'L', 'Evento2'),
+(320, 'L', 'EventoNegocio'),
+(350, 'L', 'EventoNegocio'),
+(380, 'L', 'EventoNegocio'),
+(400, 'W', 'EventoNegocio'),
+(450, 'L', 'EventoNegocio'),
+(500, 'L', 'Evet23'),
+(600, 'L', 'Evet23'),
+(900, 'L', 'Evet23'),
+(1000, 'W', 'Evet23'),
+(1050, 'L', 'Evet23'),
+(2000, 'W', 'Evento Laravel'),
+(2050, 'L', 'Evento Laravel'),
+(2100, 'L', 'Evento Laravel'),
+(2300, 'L', 'Evento Laravel'),
+(2500, 'L', 'Evento Laravel');
 
 --
 -- Índices para tablas volcadas

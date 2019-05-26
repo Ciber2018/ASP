@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using Logica.Repositorios;
 using Datos.Models;
+using Negocios.Eventos;
 
 
 
@@ -12,17 +12,14 @@ namespace Web.Controllers
 {
     public class EventoController : Controller
     {
-        private EventoRepositorio evt_repo = new EventoRepositorio();
-        private TarjetaRepository tarj_repo = new TarjetaRepository();
-        private EventosServices evt_serv = new EventosServices();
 
-
+        private EventoNegocio evt_negocio = new EventoNegocio();
 
 
         // GET: Evento
         public ActionResult Index()
         {
-            IEnumerable<evento> evento_listado = evt_repo.ListadoEventos();
+            IEnumerable<evento> evento_listado = evt_negocio.All();
             return View(evento_listado);
         }
 
@@ -37,7 +34,7 @@ namespace Web.Controllers
         public ActionResult CreateEvento(evento nuevo)
         {
             // TODO: Add insert logic here
-            if (evt_repo.Existe(nuevo))
+            if (evt_negocio.IsEventoExist(nuevo))
             {
                 ViewBag.Error = "Evento ya existe";
                 return View();
@@ -46,7 +43,7 @@ namespace Web.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    evt_repo.Adicionar(nuevo);
+                    evt_negocio.InsertarEvento(nuevo);
                 }
                 ViewBag.Success = "Evento Creado Satisfactoriamente";
             }
@@ -58,22 +55,22 @@ namespace Web.Controllers
         // GET: Default/Details/5
         public ActionResult Details(string id)
         {
-            if (evt_repo.getTarjetasAsociadas(id).Count() == 0)
+            if (evt_negocio.TarjetasAsociadasEvento(id).Count() == 0)
             {
                 ViewBag.Info = "No existen tarjetas asociadas a este evento";
-                ViewData["tarjetas_asociadas"] = evt_repo.getTarjetasAsociadas(id);
-                return View(evt_repo.GetEvento(id));
+                ViewData["tarjetas_asociadas"] = evt_negocio.TarjetasAsociadasEvento(id);
+                return View(evt_negocio.DetallesEvento(id));
             }
 
-            ViewData["tarjetas_asociadas"] = evt_repo.getTarjetasAsociadas(id);
-            return View(evt_repo.GetEvento(id));
+            ViewData["tarjetas_asociadas"] = evt_negocio.TarjetasAsociadasEvento(id);
+            return View(evt_negocio.DetallesEvento(id));
         }        
 
 
         // GET: Default/Edit/5
         public ActionResult EditarEvento(string id)
         {
-            return View(evt_repo.GetEvento(id));
+            return View(evt_negocio.GetEventoByID(id));
         }
 
         // POST: Default/Edit/5
@@ -82,7 +79,7 @@ namespace Web.Controllers
         {
             try
             {
-                evt_repo.Editar(evt);
+                evt_negocio.EditarEvento(evt);
                 // TODO: Add update logic here
 
                 return RedirectToAction("Index");
@@ -96,7 +93,7 @@ namespace Web.Controllers
         // GET: Default/Delete/5
         public ActionResult Delete(string id)
         {
-            evt_repo.BorrarEvento(id);
+            evt_negocio.BorrarEventoByID(id);
             return RedirectToAction("Index");
         }
 
@@ -121,7 +118,7 @@ namespace Web.Controllers
         {
             
             //ViewData["estados"] = tarj_repo.listarEstados();
-            return View(evt_repo.getTarjetasAsociadas(id).ToList()); 
+            return View(evt_negocio.TarjetasAsociadasEvento(id)); 
         }
 
 
@@ -145,7 +142,7 @@ namespace Web.Controllers
             }
             else
             {
-                evt_serv.ActualizarEstadoTarjetas(tarjeta);
+                evt_negocio.TarjetaGanadora(tarjeta);
             }
             
 

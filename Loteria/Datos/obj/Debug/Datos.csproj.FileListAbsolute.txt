@@ -19,3 +19,15 @@ E:\Frank\Proyecto\Loteria\Datos\obj\Debug\Datos.pdb
 E:\Proyectos\Proyecto Costa Rica\Loteria\Datos\bin\Debug\System.Web.Mvc.dll
 E:\Proyectos\Proyecto Costa Rica\Loteria\Datos\bin\Debug\System.Web.Mvc.xml
 E:\Frank\Proyecto\Loteria\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+E:\Frank\Loteria\Datos\bin\Debug\Datos.dll
+E:\Frank\Loteria\Datos\bin\Debug\Datos.pdb
+E:\Frank\Loteria\Datos\bin\Debug\EntityFramework.dll
+E:\Frank\Loteria\Datos\bin\Debug\EntityFramework.SqlServer.dll
+E:\Frank\Loteria\Datos\bin\Debug\System.Web.Mvc.dll
+E:\Frank\Loteria\Datos\bin\Debug\EntityFramework.xml
+E:\Frank\Loteria\Datos\bin\Debug\EntityFramework.SqlServer.xml
+E:\Frank\Loteria\Datos\bin\Debug\System.Web.Mvc.xml
+E:\Frank\Loteria\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+E:\Frank\Loteria\Datos\obj\Debug\Datos.dll
+E:\Frank\Loteria\Datos\obj\Debug\Datos.pdb
+E:\Proyectos\Proyecto Costa Rica\Loteria\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache

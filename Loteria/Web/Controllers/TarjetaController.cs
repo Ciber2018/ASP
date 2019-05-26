@@ -3,17 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using Logica.Repositorios;
 using Datos.Models;
+using Negocios.Tarjetas;
 
 
 namespace Web.Controllers
 {
     public class TarjetaController : Controller
     {
-        TarjetaRepository repo = new TarjetaRepository();
-        TarjetaServices services = new TarjetaServices();
-        EventoRepositorio evt_repo = new EventoRepositorio();
+       
+        TarjetasNegocio tarj_negocio = new TarjetasNegocio();
 
 
         // GET: Tarjeta
@@ -25,10 +24,7 @@ namespace Web.Controllers
         // GET: Default/Create
         public ActionResult CreateTarjeta()
         {
-            /*var model = new tarjeta {
-                eventoCollection = services.ActualizarListaEventos()
-            };*/
-            var eventos = services.ActualizarListaEventos();
+            var eventos = tarj_negocio.ListadoEventos();
             SelectList lista = new SelectList(eventos,"ID","ID");
             ViewBag.ListaEventos = lista;
 
@@ -39,7 +35,8 @@ namespace Web.Controllers
         [HttpPost]
         public ActionResult CreateTarjeta(tarjeta nueva)
         {
-            repo.Adicionar(nueva);
+            //repo.Adicionar(nueva);
+            tarj_negocio.InsertarTarjeta(nueva);
 
             return RedirectToAction("CreateTarjeta");
 

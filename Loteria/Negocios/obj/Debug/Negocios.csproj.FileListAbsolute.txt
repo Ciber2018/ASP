@@ -1,0 +1,36 @@
+E:\Proyectos\Proyecto Costa Rica\Loteria\Negocios\bin\Debug\Negocios.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\Negocios\bin\Debug\Negocios.pdb
+E:\Proyectos\Proyecto Costa Rica\Loteria\Negocios\bin\Debug\Datos.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\Negocios\bin\Debug\EntityFramework.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\Negocios\bin\Debug\EntityFramework.SqlServer.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\Negocios\bin\Debug\Logica.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\Negocios\bin\Debug\MySql.Data.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\Negocios\bin\Debug\MySql.Data.Entity.EF6.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\Negocios\bin\Debug\Datos.pdb
+E:\Proyectos\Proyecto Costa Rica\Loteria\Negocios\bin\Debug\Logica.pdb
+E:\Proyectos\Proyecto Costa Rica\Loteria\Negocios\bin\Debug\EntityFramework.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\Negocios\bin\Debug\EntityFramework.SqlServer.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\Negocios\bin\Debug\MySql.Data.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\Negocios\bin\Debug\MySql.Data.Entity.EF6.xml
+E:\Proyectos\Proyecto Costa Rica\Loteria\Negocios\obj\Debug\Negocios.csprojResolveAssemblyReference.cache
+E:\Proyectos\Proyecto Costa Rica\Loteria\Negocios\obj\Debug\Negocios.dll
+E:\Proyectos\Proyecto Costa Rica\Loteria\Negocios\obj\Debug\Negocios.pdb
+E:\Frank\Loteria\Negocios\bin\Debug\Negocios.dll.config
+E:\Frank\Loteria\Negocios\bin\Debug\Negocios.dll
+E:\Frank\Loteria\Negocios\bin\Debug\Negocios.pdb
+E:\Frank\Loteria\Negocios\bin\Debug\Datos.dll
+E:\Frank\Loteria\Negocios\bin\Debug\EntityFramework.dll
+E:\Frank\Loteria\Negocios\bin\Debug\EntityFramework.SqlServer.dll
+E:\Frank\Loteria\Negocios\bin\Debug\Logica.dll
+E:\Frank\Loteria\Negocios\bin\Debug\MySql.Data.dll
+E:\Frank\Loteria\Negocios\bin\Debug\MySql.Data.Entity.EF6.dll
+E:\Frank\Loteria\Negocios\bin\Debug\Datos.pdb
+E:\Frank\Loteria\Negocios\bin\Debug\Logica.pdb
+E:\Frank\Loteria\Negocios\bin\Debug\EntityFramework.xml
+E:\Frank\Loteria\Negocios\bin\Debug\EntityFramework.SqlServer.xml
+E:\Frank\Loteria\Negocios\bin\Debug\MySql.Data.xml
+E:\Frank\Loteria\Negocios\bin\Debug\MySql.Data.Entity.EF6.xml
+E:\Frank\Loteria\Negocios\obj\Debug\Negocios.csprojResolveAssemblyReference.cache
+E:\Frank\Loteria\Negocios\obj\Debug\Negocios.dll
+E:\Frank\Loteria\Negocios\obj\Debug\Negocios.pdb
+E:\Proyectos\Proyecto Costa Rica\Loteria\Negocios\bin\Debug\Negocios.dll.config

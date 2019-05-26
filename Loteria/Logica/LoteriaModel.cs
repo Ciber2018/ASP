@@ -1,4 +1,4 @@
-namespace Logica
+namespace Repo
 {
     using System;
     using System.Data.Entity;

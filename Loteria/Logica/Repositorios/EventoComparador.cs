@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Datos.Models;
 
-namespace Logica.Repositorios
+namespace Repo.Repositorios
 {
     public class EventoComparador : IEqualityComparer<evento>
     {
